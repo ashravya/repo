@@ -1,0 +1,10 @@
+technologies-->description
+html
+nodejs
+angularjs
+mongodb
+mongojs
+express
+
+flow diagram
+explain project

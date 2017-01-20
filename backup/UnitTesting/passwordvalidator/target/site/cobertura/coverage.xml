@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8703703703703703" branch-rate="0.7222222222222222" lines-covered="47" lines-valid="54" branches-covered="13" branches-valid="18" complexity="1.4705882352941178" version="2.1.1" timestamp="1481698531108">
+	<sources>
+		<source>C:/Users/Shravya_Anchuru/Desktop/UnitTesting/passwordvalidator/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="com.epam.model" line-rate="0.72" branch-rate="0.375" complexity="1.2727272727272727">
+			<classes>
+				<class name="com.epam.model.Error" filename="com/epam/model/Error.java" line-rate="0.5625" branch-rate="0.375" complexity="1.4285714285714286">
+					<methods>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="10" branch="false"/>
+								<line number="9" hits="10" branch="false"/>
+								<line number="10" hits="10" branch="false"/>
+								<line number="11" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="0.375" complexity="0">
+							<lines>
+								<line number="31" hits="5" branch="false"/>
+								<line number="32" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="33" hits="5" branch="false"/>
+								<line number="34" hits="5" branch="true" condition-coverage="33% (2/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="2" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="36" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCode" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMessage" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCode" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMessage" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="10" branch="false"/>
+						<line number="9" hits="10" branch="false"/>
+						<line number="10" hits="10" branch="false"/>
+						<line number="11" hits="10" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="31" hits="5" branch="false"/>
+						<line number="32" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="33" hits="5" branch="false"/>
+						<line number="34" hits="5" branch="true" condition-coverage="33% (2/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="2" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="36" hits="5" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.epam.model.Response" filename="com/epam/model/Response.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getErrors" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getStatus" signature="()Lcom/epam/model/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setErrors" signature="(Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="6" branch="false"/>
+								<line number="24" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStatus" signature="(Lcom/epam/model/Status;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="6" branch="false"/>
+								<line number="16" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="6" branch="false"/>
+						<line number="11" hits="4" branch="false"/>
+						<line number="15" hits="6" branch="false"/>
+						<line number="16" hits="6" branch="false"/>
+						<line number="19" hits="4" branch="false"/>
+						<line number="23" hits="6" branch="false"/>
+						<line number="24" hits="6" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.epam.model.Status" filename="com/epam/model/Status.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="3" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/epam/model/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/epam/model/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="3" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.epam.services" line-rate="1.0" branch-rate="1.0" complexity="1.5">
+			<classes>
+				<class name="com.epam.services.PasswordValidatorService" filename="com/epam/services/PasswordValidatorService.java" line-rate="1.0" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/epam/validators/EmptyValidator;Lcom/epam/validators/MaxLengthValidator;Lcom/epam/validators/MinLengthValidator;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="7" branch="false"/>
+								<line number="22" hits="7" branch="false"/>
+								<line number="23" hits="7" branch="false"/>
+								<line number="24" hits="7" branch="false"/>
+								<line number="25" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/String;)Lcom/epam/model/Response;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="6" branch="false"/>
+								<line number="29" hits="6" branch="false"/>
+								<line number="30" hits="6" branch="false"/>
+								<line number="31" hits="6" branch="false"/>
+								<line number="32" hits="6" branch="false"/>
+								<line number="33" hits="6" branch="false"/>
+								<line number="34" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="35" hits="3" branch="false"/>
+								<line number="37" hits="3" branch="false"/>
+								<line number="39" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="7" branch="false"/>
+						<line number="22" hits="7" branch="false"/>
+						<line number="23" hits="7" branch="false"/>
+						<line number="24" hits="7" branch="false"/>
+						<line number="25" hits="7" branch="false"/>
+						<line number="28" hits="6" branch="false"/>
+						<line number="29" hits="6" branch="false"/>
+						<line number="30" hits="6" branch="false"/>
+						<line number="31" hits="6" branch="false"/>
+						<line number="32" hits="6" branch="false"/>
+						<line number="33" hits="6" branch="false"/>
+						<line number="34" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="35" hits="3" branch="false"/>
+						<line number="37" hits="3" branch="false"/>
+						<line number="39" hits="6" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.epam.validators" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+			<classes>
+				<class name="com.epam.validators.EmptyValidator" filename="com/epam/validators/EmptyValidator.java" line-rate="1.0" branch-rate="1.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/String;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="4" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="14" hits="2" branch="false"/>
+								<line number="16" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="3" branch="false"/>
+						<line number="13" hits="4" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="14" hits="2" branch="false"/>
+						<line number="16" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.epam.validators.MaxLengthValidator" filename="com/epam/validators/MaxLengthValidator.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/String;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="15" hits="1" branch="false"/>
+								<line number="17" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="4" branch="false"/>
+						<line number="10" hits="1" branch="false"/>
+						<line number="14" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="15" hits="1" branch="false"/>
+						<line number="17" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.epam.validators.MinLengthValidator" filename="com/epam/validators/MinLengthValidator.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/String;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="15" hits="2" branch="false"/>
+								<line number="17" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="4" branch="false"/>
+						<line number="10" hits="1" branch="false"/>
+						<line number="14" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="15" hits="2" branch="false"/>
+						<line number="17" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.epam.validators.Validator" filename="com/epam/validators/Validator.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

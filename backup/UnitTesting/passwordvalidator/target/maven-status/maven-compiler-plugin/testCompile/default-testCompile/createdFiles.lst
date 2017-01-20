@@ -1,0 +1,9 @@
+com\epam\validators\MaxLengthValidatorTest.class
+com\epam\junit\JunitStructure.class
+com\epam\junit\JunitMockitoTestCases.class
+com\epam\validators\MinLengthValidatorTest.class
+com\epam\validators\EmptyValidatorTest.class
+com\epam\services\PasswordValidatorServiceTest$2.class
+com\epam\services\PasswordValidatorServiceTest.class
+com\epam\services\PasswordValidatorServiceTest$3.class
+com\epam\services\PasswordValidatorServiceTest$1.class

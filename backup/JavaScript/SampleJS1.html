@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Enrollment form</title>
+
+
+<script type="text/javascript" src="EnrollmentValidator.js"></script>
+<!-- <script type="text/javascript" src="EnrollmentValidator2.js"></script> -->
+</head>
+<body>
+	<h1>This is an enrollment from</h1>
+	<p>Fill this form to proceed further</p>
+	<div class="welcome">
+		<form>
+			Name:<br> <input type="text" name="name" placeholder="Your Name" /><br />
+
+			<br> Phone Number:<br> <input type="text" name="phone" /><br>
+			<br> Email:<br> <input type="text" name="emailId"
+				placeholder="someone@someone.com"><br> <br> Date
+			Of Birth (Month and Year):<br> <input type="date" name="dob"><br>
+			<br> Gender:<br> <input type="radio" name="gender"
+				value="male"> Male   <input type="radio" name="gender"
+				value="female"> Female<br> <br> Address:<br>
+			<textarea rows="5" cols="25" name="address"></textarea>
+			<br> <br> City:<br> <select>
+				<option value="Hyderabad">Hyderabad</option>
+				<option value="Mumbai">Mumbai</option>
+				<option value="Banglore">Banglore</option>
+				<option value="Chennai">Chennai</option>
+			</select><br> <br> Pin:<br> <input type="number" name="pin"><br>
+			<br> <input type="button" name="submit" value="Submit!"
+				onclick="ValidatorObject.validatePhoneNumber();ValidatorObject.validateName()">
+		</form>
+	</div>
+	<div>
+		<span id="valid_name"></span><br>
+		<span id="valid_phone"></span>
+	</div>
+</body>
+</html>

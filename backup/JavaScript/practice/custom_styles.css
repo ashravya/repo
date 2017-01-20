@@ -1,0 +1,11 @@
+.error-class{
+	border: 1px solid #FF0000;
+	
+}
+
+.error-class{
+	color:#FF0000;
+	font-family: sans-serif;
+	border: 1px solid #FF0001;
+	position: absolute;
+}

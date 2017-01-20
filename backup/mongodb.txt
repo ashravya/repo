@@ -1,0 +1,37 @@
+use databaseName --> create and switch to database
+db --> specifies the currently used database
+db.dropDatabase --> delete a database
+db.collectionsName.insert({}) --> insertion of data
+show collections --> displays the list of collections
+db.collectionName.find() --> select command
+db.collectionName.find().pretty() --> select command in {} format
+db.collectionName.findOne() --> finds the first one in the collections
+db.collection.drop() --> to drop a collection
+
+db.users.find({$or:[{status:"A"},{age:{$lt: 30}]}) --> or condition
+
+db.product.find({$or:[{"subcategory": "laptop"},{"subcategory": "kitchen"}]}).pretty()
+
+db.product.find({$or:[{"subcategory": "laptop"},{"category": "laptop"}]}).count()
+
+db.product.find({"price": { $lt: "20000" }})
+
+db.product.find({"productName" : {$regex : ".*piron.*"}});
+db.product.find({productName:/HP/})
+db.product.findOne({"productName" : /.*hp.*/i});
+
+db.product.remove({subcategory:"women"}) --> remove few fields
+
+//update many
+ db.users.updateMany({}, {$set: {"valid":true}})
+
+
+//export
+mongoexport --db products --collection product --out D:\DataM.json
+
+
+//import
+mongoimport --db products --collection product --drop --file D:\e-COMMERCE files\DataF.json
+
+
+mongoimport -d products -c product --drop C:\DataF.json

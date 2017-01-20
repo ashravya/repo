@@ -1,0 +1,44 @@
+ng-book The Complete Book on AngularJS
+https://ebooks-it.org/099134460x-ebook.htm
+------------
+
+AngularJS books
+
+https://www.geekbooks.me/category/view/angularjs
+
+-------------------
+
+jade template
+https://www.sitepoint.com/jade-tutorial-for-beginners/
+https://naltatis.github.io/jade-syntax-docs/
+----------------
+
+e-commerce
+https://www.youtube.com/watch?v=OhPFgqHz68o
+
+express and node.js
+https://www.youtube.com/watch?v=gnsO8-xJ8rs
+https://www.youtube.com/watch?v=wrFkT0QTE3M
+
+node.js series
+https://www.youtube.com/watch?v=65a5QQ3ZR2g&list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR
+
+Project Structure
+https://www.youtube.com/watch?v=bf8L9tQi_MQ
+
+Setup of Express
+https://www.youtube.com/watch?v=gqcBptGjHTo
+
+--------------
+BootStrap
+https://www.youtube.com/watch?v=aTLRdrRQyN4
+
+Express and Bootstrap
+https://www.youtube.com/watch?v=oLGiSBy7u68
+
+NodeJS, Bootstrap and Jade
+https://www.youtube.com/watch?v=-dHv_lvPyIU
+
+----------------
+
+https://github.com/rmishraxebia/NodeJS-ExpressSiteTemplate-master

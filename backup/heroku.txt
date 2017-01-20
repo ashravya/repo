@@ -1,0 +1,4 @@
+mongodb://<dbuser>:<dbpassword>@ds117909.mlab.com:17909/heroku_034x5vbz
+
+
+mongoimport -h ds117909.mlab.com:17909 -d heroku_034x5vbz -c product -u admin -p admin --file "C:\Users\Shravya_Anchuru\Desktop\git\E-commerce\DataBase_quantity.json" --jsonArray
