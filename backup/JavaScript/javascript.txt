@@ -1,6 +1,0 @@
-json objects
-{key:value}
-{name of the function:array}
-
-Json array
-[{},{}]
